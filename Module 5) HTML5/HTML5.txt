@@ -1,0 +1,93 @@
+1. What are the new tags added in HTML5?
+HTML5 introduced several new tags to enhance the structure, semantics, and functionality of web documents. Here are some of the key new tags:
+
+Structural and Semantic Tags:
+
+- <article>: Represents a self-contained piece of content that could be independently distributable or reusable.
+
+- <section>: Defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
+
+- <nav>: Defines a section that contains navigation links.
+
+- <aside>: Represents content tangentially related to the content around it (like a sidebar).
+
+- <header>: Represents the introductory content or a set of navigational links.
+
+- <footer>: Represents the footer for its nearest sectioning content or sectioning root element.
+
+- <main>: Represents the dominant content of the <body>.
+
+- <figure>: Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+
+- <figcaption>: Defines a caption for a <figure> element.
+
+- <mark>: Represents text highlighted for reference or notation purposes.
+
+- <time>: Represents a specific period in time.
+
+Media Tags:
+----------
+- <audio>: Embeds sound content.
+- <video>: Embeds video content.
+- <source>: Specifies multiple media resources for <audio> and <video>.
+- <track>: Defines text tracks for <video> and <audio> (e.g., subtitles, captions).
+
+Form Tags:
+------------
+- <datalist>: Specifies a list of pre-defined options for an <input> element.
+- <keygen>: Facilitates generating a key pair in forms (now deprecated).
+- <output>: Represents the result of a calculation or user action.
+
+Graphics Tags:
+-----------
+- <canvas>: Provides a space on the web page where you can draw graphics using JavaScript.
+- <svg>: Embeds Scalable Vector Graphics content.
+
+
+2. How to embed audio and video in a webpage?
+
+- Embedding Audio
+------------
+To embed audio in a webpage, use the <audio> tag. You can specify multiple sources with different formats to ensure compatibility across browsers.
+
+<audio controls>
+  <source src="audio-file.mp3" type="audio/mpeg">
+  <source src="audio-file.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+
+- Embedding Video
+------------
+To embed video in a webpage, use the <video> tag. Similarly, multiple sources can be specified.
+
+<video width="600" controls>
+  <source src="video-file.mp4" type="video/mp4">
+  <source src="video-file.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+3.Semantic Elements in HTML5
+Semantic elements clearly describe their meaning in a human- and machine-readable way. Here are some of the key semantic elements introduced in HTML5:
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+4.Canvas and SVG Tags
+
+Canvas :-
+The <canvas> element is used for drawing graphics via scripting (usually JavaScript). It is a raster-based (pixel-based) graphics solution.
+
+
+SVG (Scalable Vector Graphics) :-
+The <svg> element is used to define vector-based graphics. SVG images can be scaled to any size without losing quality.
